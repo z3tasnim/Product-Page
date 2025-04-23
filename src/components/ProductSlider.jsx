@@ -1,6 +1,8 @@
 import { useState } from "react";
+import { useSlider } from "../contexts/SliderContext";
 
-export default function ProductSlider() {
+export default function ProductSlider({ lightbox = false }) {
+  const { openSlider, closeSlider } = useSlider();
   const productImages = [
     {
       id: 1,
@@ -44,6 +46,14 @@ export default function ProductSlider() {
   return (
     <>
       <div className="space-y-6">
+        {lightbox && (
+          <img
+            src="src\assets\images\icon-close.svg"
+            alt="Close"
+            className="h-4 ml-auto mr-2 hover:cursor-pointer"
+            onClick={closeSlider}
+          />
+        )}
         <div className="w-full overflow-hidden h-[268px] md:ml-[2px] md:w-[344px] md:h-[354px] md:rounded-2xl relative">
           <div
             className="md:hidden bg-white w-8 h-8 rounded-full border-2 absolute top-1/2 right-2 transform -translate-y-1/2 flex justify-center items-center"
@@ -68,8 +78,9 @@ export default function ProductSlider() {
 
           <img
             src={productImages[currentIndex].bigPicture}
-            alt=""
+            alt="Product"
             className="w-full h-full object-cover object-center"
+            onClick={openSlider}
           />
         </div>
 

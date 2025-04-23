@@ -30,7 +30,7 @@ export default function Main() {
             $250.00
           </p>
         </div>
-        <div className="md:flex gap-8 pt-2">
+        <div className="md:flex gap-8 space-y-4 md:space-y-0 pt-2">
           <AddToCart />
         </div>
       </div>
