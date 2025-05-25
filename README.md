@@ -3,9 +3,13 @@ A responsive product page built with React and Tailwind CSS. Features image slid
 
 ## Features
 • Responsive design (mobile & desktop)
+
 • Image slider with thumbnails and arrows
+
 • Lightbox for large images
+
 • Mobile sidebar menu
+
 • Shopping cart dropdown with item count
 
 ## Setup
