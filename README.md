@@ -12,6 +12,11 @@ A responsive product page built with React and Tailwind CSS. Features image slid
 
 • Shopping cart dropdown with item count
 
+## 📸 Preview
+
+![Screenshot 2025-06-22 211308](https://github.com/user-attachments/assets/0e9a65be-b276-4502-b79e-145a0dd88eeb)
+![WhatsApp Image 2025-06-22 at 21 14 41_083030f8](https://github.com/user-attachments/assets/64e27331-56e4-4db9-baf1-40d16a6a9561)
+
 ## Setup
 1. Clone the repo:
 git clone https://github.com/z3tasnim/Product-Page.git
