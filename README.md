@@ -27,16 +27,16 @@ A responsive product page built with **React** and **Tailwind CSS**. It includes
 
 ## ⚙️ Setup
 
-# 1. Clone the repository
+### 1. Clone the repository
 git clone https://github.com/z3tasnim/Product-Page.git
 
-# 2. Install dependencies
+### 2. Install dependencies
 npm install
 
-# 3. Run the app locally
+### 3. Run the app locally
 npm run dev
 
-# 4. Open in browser
+### 4. Open in browser
 http://localhost:5173
 
 
