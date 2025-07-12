@@ -2,6 +2,9 @@
 
 A responsive product page built with **React** and **Tailwind CSS**. It includes a product image slider, lightbox, mobile sidebar, and shopping cart UI for a complete e-commerce interface.
 
+## 🔗 Live Demo  
+[Click here to view the Product Page](https://z3tasnim.github.io/Product-Page/)
+
 ---
 
 ## ✨ Features
